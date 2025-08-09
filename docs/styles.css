@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'Effra';
+  src: url('fonts/Effra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  font-family: 'Effra';
+  background: url('images/Ornament.png') no-repeat top center;
+    background-size: cover; 
+    height: 900px;
+   z-index: 1;
+}
+/* Навбар */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.auth {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+}
+.auth a{
+  text-decoration: none ;
+  color: rgb(255, 255, 255);
+}
+.register-btn {
+  background: white;
+  color: black;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold
+}
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  color: rgba(139, 139, 139, 1);
+  margin-top: -30px;
+  padding-bottom:50px ;
+}
+.get-started {
+  background: #b3ff00;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.img_hero{
+ margin-left: 300px;
+ margin-top: -90px;
+}
+.note {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+/* Cards */
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.card {
+  background: #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+.hero2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 40px; 
+  height: 742px;
+  background-color: rgba(168, 255, 53, 1);
+}
+.text_hero2 h1 {
+  font-size: 72px;
+  color: black;
+  margin: 0; 
+}
+.hero2_img_grup {
+  border-radius: 15px;
+  width: 502px;
+  height: 202px;
+  background-color: white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.hero2_img_grup img {
+  max-width: 100%;
+  height: auto;
+}
+.text_hero3 {
+  width: 666px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.hero2_left {
+margin-left: -200px;
+padding-right: 100px;
+}
+.hero2_right {
+  margin-right: -200px;
+  padding-left: 100px;
+  margin-top: -50px;
+}
+.hero3{
+  margin-top: 100px;
+  display: flex;
+  align-items: center; 
+  height: 584px;
+  background-color: rgb(255, 255, 255);
+}
+.hero3 h1{
+  font-size: 64px;
+  white-space: nowrap;
+  padding-left: 400px;
+  line-height: 0.5;
+}
+.hero3 span{
+  color:rgba(173, 173, 173, 1) ;
+}
+.hero4{
+  display: flex;
+  margin-top: 150px;
+  height: 732px;
+  background-color: rgb(255, 255, 255);
+}
+.hero4 h1{
+  font-size: 64px;
+  white-space: nowrap;
+  padding-left: 480px;
+  line-height: 0.5;
+  color: black;
+  margin-left: 0px;
+
+}
+.hero4 img {
+  margin-left:380px;
+}
+.hero5{
+   
+  display: flex;
+  margin-top: 250px;
+  height: 2209px;
+  background-color: rgb(255, 255, 255);
+}
+.hero5 h1{
+ 
+  font-size: 64px;
+  white-space: nowrap;
+ 
+  line-height: 0.5;
+  color: black;
+  margin-left: 450px;
+
+}
+
+.hero5_image_block {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top: -1600px;
+margin-left: -1100px;
+  align-items: center; 
+  gap: 40px; 
+
+}
+.tweets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -1050px;
+  align-items: center; 
+  gap: 40px; 
+  margin-top: 300px;
+}
+.tweets img{
+  margin-top: 100px;
+}
+.button2 a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 25px;
+  background-color: black;
+  border-radius: 30px;
+}
+.text_hero6{
+  display: flex;
+  margin-top: 100px;
+  height: 1128px;
+  background-color: rgb(0, 0, 0);
+}
+.text_hero6 h1 {
+ margin-top: 100px;
+margin-left: 680px;
+font-size: 64px;
+}
+.Buttones{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-left: -390px;
+  margin-top: -600px;
+}
+.Buttones span {
+  color: rgb(160, 160, 160);
+}
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background: black;
+}
+
+.pricing-card {
+  margin-top: -800px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 40px 30px;
+  
+  width: 360px;
+  height: 640px;
+  text-align: justify;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.pricing-card.highlight {
+  background: #b3ff00;
+}
+
+.pricing-card h3 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.pricing-card .price {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.pricing-card .price span {
+  font-size: 16px;
+  font-weight: normal;
+}
+.border{
+  font-size: 18px;
+  border-bottom:1px solid rgb(156, 156, 156) ;
+  padding-bottom: 30px;
+}
+#prem {
+  font-size: 18px;
+}
+
+
+.pricing-card ol li {
+  margin: 8px 0;
+}
+
+.btn-pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b3ff00;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-pricing.dark {
+  background: black;
+  color: white;
+}
+#btn-pricing1{
+  margin-top: 150px;
+}
+#btn-pricing2{
+  margin-top: 145px;
+}
+#btn-pricing3{
+  margin-top: 40px;
+}
+.pricing-card ol {
+  list-style-image: url('images/galka.png'); 
+  padding: 0;
+ margin-left: 30px;
+ font-size: 18px;
+
+}
+.Last_section{
+  display: flex;
+  height: 539px;
+  background-color:rgba(168, 255, 53, 1);
+  justify-content: center;
+}
+.textAndback h1 {
+  font-size: 72px;
+  width: 700px;
+  color: black;
+  font-weight: bold;
+}
+.textAndback span{
+  color: rgb(108, 173, 23);
+}
+.textAndback a{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 25px;
+  border-radius: 30px;
+  background-color: black;
+  color: #ccc;
+  margin-left: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  
+  display: flex;
+  
+  align-items: center;
+  height: 100px;               /* высота белой полосы */
+  background-color: white;     /* белый фон */
+  padding: 0;                  /* убрал лишние отступы */
+  color: black;                /* цвет текста внутри футера */
+  font-family: 'Effra', Arial, sans-serif;
+  font-weight: normal;
+}
+.image_footer{
+  display: block;    
+  margin-left: 100px;
+}
+.nav_footer{
+  display: flex;
+  margin-left: 800px;
+  gap: 40px;
+}
+.nav_footer a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+}
